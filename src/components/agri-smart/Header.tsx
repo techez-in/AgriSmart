@@ -8,6 +8,7 @@ export default function Header() {
   const [open, setOpen] = React.useState(false);
 
   const navLinks = [
+        { href: '/products', label: 'Products' },
     { href: '#how-it-works', label: 'How It Works' },
     { href: '#benefits', label: 'Benefits' },
     { href: '#pricing', label: 'Pricing' },
