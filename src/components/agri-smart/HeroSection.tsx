@@ -14,7 +14,7 @@ export default function HeroSection() {
     isMounted ? `animate-fade-in-up style="animation-delay: ${delay}"` : 'opacity-0';
 
   return (
-    <section className="relative h-[80vh] md:h-[90vh] w-full flex items-center justify-center text-white overflow-hidden">
+    <section id="herosection" className="relative h-[80vh] md:h-[90vh] w-full flex items-center justify-center text-white overflow-hidden">
       <div className="absolute inset-0">
         <Image
           src="/images/AgriSmart-hero-image.png"
