@@ -18,7 +18,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background">
       <div className="container mx-auto flex h-20 items-center justify-between px-6">
-        <a href="#" className="flex items-center gap-2">
+        <a href="#herosection" className="flex items-center gap-2">
           <Leaf className="h-7 w-7 text-primary" />
           <span className="font-bold text-xl tracking-tight">AgriSmart</span>
         </a>
