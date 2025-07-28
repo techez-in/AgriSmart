@@ -9,10 +9,10 @@ const faqs = [
   {
     question: 'Is this eligible for Australian government grants?',
     answer:
-      'Yes, AgriSmart Systems is eligible for several state and federal grants, including the Smart Farms Small Grants program. Many of our clients have successfully received rebates of up to 50% on their investment. We can even provide guidance to help with your application.',
+      'Yes, AgriTek Systems is eligible for several state and federal grants, including the Smart Farms Small Grants program. Many of our clients have successfully received rebates of up to 50% on their investment. We can even provide guidance to help with your application.',
   },
   {
-    question: 'What types of crops does AgriSmart work with?',
+    question: 'What types of crops does AgriTek work with?',
     answer:
       'Our system is versatile and can be adapted for a wide variety of crops, including vineyards, orchards, row crops, and specialty vegetables. The sensor parameters and irrigation schedules can be customized to meet the specific needs of your crop.',
   },

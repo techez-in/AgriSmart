@@ -9,18 +9,18 @@ export default function Header() {
 
   const navLinks = [
         { href: '/products', label: 'Products' },
-    { href: '#how-it-works', label: 'How It Works' },
-    { href: '#benefits', label: 'Benefits' },
-    { href: '#pricing', label: 'Pricing' },
-    { href: '#contact', label: 'Contact' },
+    { href: '/#how-it-works', label: 'How It Works' },
+    { href: '/#benefits', label: 'Benefits' },
+    { href: '/#pricing', label: 'Pricing' },
+    { href: '/#contact', label: 'Contact' },
   ];
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background">
       <div className="container mx-auto flex h-20 items-center justify-between px-6">
-        <a href="#" className="flex items-center gap-2">
-          <Leaf className="h-7 w-7 text-primary" />
-          <span className="font-bold text-xl tracking-tight">AgriSmart</span>
+        <a href="/" className="flex items-center gap-2">
+          <img src='/images/agritek-logo.jpeg' width={40}></img>
+          <span className="font-bold text-xl tracking-tight">AgriTek</span>
         </a>
 
         {/* Desktop Navigation */}
@@ -33,9 +33,6 @@ export default function Header() {
                 ))}
             </nav>
             <div className='flex items-center gap-4'>
-                <Button asChild variant="outline" className="demo-button text-base px-6 py-5 rounded-lg font-semibold transition-all duration-300 ease-in-out">
-                  <a href="#contact">Request a Demo</a>
-                </Button>
                 <Button asChild className="text-base px-6 py-5 rounded-lg cta-gradient hover:opacity-90 transition-all duration-300 hover:shadow-lg hover:shadow-primary/30">
                   <a href="#contact">Get a Quote</a>
                 </Button>
@@ -56,7 +53,7 @@ export default function Header() {
                     <div className="flex flex-col h-full p-6">
                         <a href="#" className="flex items-center gap-2 mb-8" onClick={() => setOpen(false)}>
                             <Leaf className="h-7 w-7 text-primary" />
-                            <span className="font-bold text-xl tracking-tight">AgriSmart</span>
+                            <span className="font-bold text-xl tracking-tight">AgriTek</span>
                         </a>
                         <nav className="flex flex-col gap-6 text-lg font-medium">
                             {navLinks.map((link) => (

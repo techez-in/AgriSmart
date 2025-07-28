@@ -34,9 +34,6 @@ export default function HeroSection() {
           Monitor your farm, control irrigation, and save water – from your mobile or web dashboard.
         </p>
         <div className={`mt-10 flex flex-col sm:flex-row justify-center gap-4 ${isMounted ? 'animate-zoom-in' : 'opacity-0'}`} style={{ animationDuration: '500ms', animationDelay: '400ms' }}>
-          <Button asChild size="lg" className="text-lg py-7 px-10 rounded-lg cta-gradient shadow-lg hover:shadow-primary/40 hover:scale-105 transition-all duration-300 transform">
-            <a href="#contact">Request a Demo</a>
-          </Button>
           <Button asChild size="lg" variant="secondary" className="text-lg py-7 px-10 rounded-lg bg-white/20 text-white backdrop-blur-sm border border-white/30 hover:bg-white/30 hover:scale-105 transition-all duration-300 transform">
             <a href="#contact">Get a Quote</a>
           </Button>

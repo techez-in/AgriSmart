@@ -9,10 +9,10 @@ export default function Footer() {
           <div className="sm:col-span-2 lg:col-span-1">
              <div className="flex items-center mb-4">
                 <Leaf className="h-8 w-8 mr-3 text-primary" />
-                <span className="font-bold text-2xl">AgriSmart</span>
+                <span className="font-bold text-2xl">AgriTek</span>
             </div>
             <p className="text-slate-400">
-              AgriSmart Systems builds easy-to-use technology that brings precision agriculture to every Australian farmer.
+              AgriTek Systems builds easy-to-use technology that brings precision agriculture to every Australian farmer.
             </p>
           </div>
 
@@ -48,7 +48,7 @@ export default function Footer() {
       </div>
       <div className="border-t border-slate-800">
         <div className="container mx-auto py-6 px-4 text-center text-slate-500">
-            <p>&copy; {new Date().getFullYear()} AgriSmart Systems. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} AgriTek Systems. All rights reserved.</p>
         </div>
       </div>
     </footer>

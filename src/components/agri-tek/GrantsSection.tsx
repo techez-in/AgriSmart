@@ -19,7 +19,7 @@ export default function GrantsSection() {
             <div>
               <h2 className="text-3xl md:text-4xl font-bold text-slate-800">Claim Rebates & Save Up to 50%</h2>
               <p className="mt-4 text-lg text-muted-foreground">
-                AgriSmart is eligible under Smart Farm Grants in various states. Many farmers receive up to <strong>$50,000 in support</strong> to adopt new technology.
+                AgriTek is eligible under Smart Farm Grants in various states. Many farmers receive up to <strong>$50,000 in support</strong> to adopt new technology.
               </p>
               <div className="mt-6 flex flex-wrap gap-4 items-center">
                 {states.map(state => (

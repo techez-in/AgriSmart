@@ -50,7 +50,7 @@ export default function BenefitsSection() {
     <section id="benefits" className="py-20 sm:py-28 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-5xl font-bold">Why Farmers Choose AgriSmart</h2>
+          <h2 className="text-3xl md:text-5xl font-bold">Why Farmers Choose AgriTek</h2>
           <p className="mt-4 text-lg text-muted-foreground max-w-3xl mx-auto">
             Experience a new level of efficiency and productivity. Our system empowers you to make data-driven decisions that directly benefit your bottom line.
           </p>

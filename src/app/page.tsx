@@ -1,13 +1,13 @@
-import Header from '@/components/agri-smart/Header';
-import HeroSection from '@/components/agri-smart/HeroSection';
-import HowItWorksSection from '@/components/agri-smart/HowItWorksSection';
-import BenefitsSection from '@/components/agri-smart/BenefitsSection';
-import DashboardPreviewSection from '@/components/agri-smart/DashboardPreviewSection';
-import PricingSection from '@/components/agri-smart/PricingSection';
-import GrantsSection from '@/components/agri-smart/GrantsSection';
-import LeadGenFormSection from '@/components/agri-smart/LeadGenFormSection';
-import FaqSection from '@/components/agri-smart/FaqSection';
-import Footer from '@/components/agri-smart/Footer';
+import Header from '@/components/agri-tek/Header';
+import HeroSection from '@/components/agri-tek/HeroSection';
+import HowItWorksSection from '@/components/agri-tek/HowItWorksSection';
+import BenefitsSection from '@/components/agri-tek/BenefitsSection';
+import DashboardPreviewSection from '@/components/agri-tek/DashboardPreviewSection';
+import PricingSection from '@/components/agri-tek/PricingSection';
+import GrantsSection from '@/components/agri-tek/GrantsSection';
+import LeadGenFormSection from '@/components/agri-tek/LeadGenFormSection';
+import FaqSection from '@/components/agri-tek/FaqSection';
+import Footer from '@/components/agri-tek/Footer';
 
 export default function Home() {
   return (

@@ -2,8 +2,8 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Check, Download, Mail, ArrowRight } from 'lucide-react';
 import Image from 'next/image';
-import Header from '@/components/agri-smart/Header';
-import Footer from '@/components/agri-smart/Footer';
+import Header from '@/components/agri-tek/Header';
+import Footer from '@/components/agri-tek/Footer';
 import Link from 'next/link';
 
 const products = [
